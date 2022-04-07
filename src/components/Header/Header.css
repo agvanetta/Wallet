@@ -1,0 +1,78 @@
+.header{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(252, 254, 255);
+    height: 150px;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 217, 226);
+    width: calc(100% - 258px);
+    font-family: 'Lato', sans-serif;
+}
+
+.header__first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 70px;
+}
+
+.header__balance{
+    display: flex;
+    align-items: center;
+}
+
+.header__balance__1{
+    padding-right: 10px;
+    color: #4d4f4e
+}
+
+.header__balance__2{
+    font-size: larger;
+}
+
+.header__balance__3{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.header__second{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.header__second__button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7908ff;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.header__second__button1:hover{
+    background-color: #5a06c1;
+    transition: .5s
+}
+
+.header__second__button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4ecfe;
+    color: #7908ff;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.header__second__button2:hover{
+    background-color: #cdbae1;
+    transition: .5s
+}

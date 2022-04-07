@@ -1,0 +1,11 @@
+.home{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(253, 252, 255);
+    height: 150px;
+    align-items: center;
+    width: calc(100% - 258px);
+    font-family: 'Lato', sans-serif;
+}

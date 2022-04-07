@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import Wallet from "./components/Wallet";
+import Market from "./components/Market";
+import Sidebar from "./components/Sidebar/Sidebar";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router  Redirect to="/" >
+        <div className="app">
+
+          <Routes>
+            <Route path="/checkout" element={<>{" "}<Header /> <Market /> <Home/> <Footer/> {" "}</> }  />
+            <Route path="/Wallet" element={<Wallet />} />
+            <Route path="/"    element={  <>  {" "} <Header /> <Home/>  <Sidebar />  <Footer/>{" "}  </> } />
+            <Route path="/amazon-clone" element={   <>{" "}  <Header /> <Home /> <Footer/> {" "} </> } />
+          </Routes>
+
+        </div>
+      </Router>
+    </>
   );
 }
 
