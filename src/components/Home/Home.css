@@ -1,11 +1,13 @@
 .home{
     float: right;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: rgb(253, 252, 255);
-    height: 150px;
-    align-items: center;
     width: calc(100% - 258px);
     font-family: 'Lato', sans-serif;
+}
+
+.home__block__one{
+    display: flex;
+    justify-content: space-evenly;
 }

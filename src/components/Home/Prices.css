@@ -1,11 +1,19 @@
 #tradingview_widget_wrapper > div > a{
     font: 0/0 a;
+    
 }
 
 #tradingview_widget_wrapper{
     width: 100%;
+    
 }
 
 .home{
     height: 60px;
+    
+}
+
+#prices{
+    background-color: rgb(253, 252, 255);
+
 }

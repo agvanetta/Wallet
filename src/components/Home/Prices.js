@@ -27,7 +27,7 @@ import "./Prices.css";
 function Prices() {
   return (
       <>
-    <Ticker colorTheme="light" symbols={TickerSymbol}></Ticker>
+    <Ticker id="prices" colorTheme="light" symbols={TickerSymbol}></Ticker>
     </>
    
   )
