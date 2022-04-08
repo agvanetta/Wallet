@@ -10,4 +10,19 @@
 .home__block__one{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .home{
+    width: 100%;
+    }
+
+    .home__block__one{
+        flex-direction: column;
+        align-items: center;
+    
+    }
 }

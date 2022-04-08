@@ -76,3 +76,9 @@
     background-color: #cdbae1;
     transition: .5s
 }
+
+@media screen and (max-width: 850px) {
+    .header{
+    width: 100%;
+    }
+}
