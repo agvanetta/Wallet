@@ -9,7 +9,7 @@ function Header() {
           <div className="header__balance__1">Equivalente en </div>
           <div className="header__balance__2">ARS</div>
         </div>
-        <div className="header__balance__3">$ 36674.92</div>
+        <div className="header__balance__3">$ 104.471,20</div>
       </div>
       <div className="header__second">
         <div className="header__second__button1">Depositar</div>

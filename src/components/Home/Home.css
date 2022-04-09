@@ -2,7 +2,7 @@
     float: right;
     display: flex;
     flex-direction: column;
-    background-color: rgb(253, 252, 255);
+    background-color: white;
     width: calc(100% - 258px);
     font-family: 'Lato', sans-serif;
 }
@@ -25,4 +25,10 @@
         align-items: center;
     
     }
+}
+
+.home__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
 }
