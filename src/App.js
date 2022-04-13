@@ -16,9 +16,9 @@ function App() {
 
           <Routes>
             <Route path="/checkout" element={<>{" "}<Header /> <Market /> <Home/> <Footer/> {" "}</> }  />
-            <Route path="/Wallet" element={<Wallet />} />
+            <Route path="/WalletPage" element={<Wallet />} />
             <Route path="/"    element={  <>  {" "} <Header /> <Home/>  <Sidebar />  <Footer/>{" "}  </> } />
-            <Route path="/amazon-clone" element={   <>{" "}  <Header /> <Home /> <Footer/> {" "} </> } />
+            <Route path="/Wallet" element={   <>{" "}  <Header /> <Home /> <Footer/> {" "} </> } />
           </Routes>
 
         </div>
