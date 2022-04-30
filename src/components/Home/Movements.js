@@ -15,6 +15,9 @@ function Movements() {
       <Movdetails movement="Pago dividendos" amount="$450,00" date="5 de abril"/>
       <Movdetails movement="Retiro" amount="-$2.300,00" date="1 de abril"/>
       <Movdetails movement="Venta AAPL" amount="$2.700,50" date="29 de Marzo"/>
+      <Movdetails movement="Retiro" amount="$1.100,00" date="25 de Marzo"/>
+      <Movdetails movement="Compra BTC" amount="$5.000,00" date="20 de Marzo"/>
+      <Movdetails movement="Compra ETH" amount="$1.000,00" date="19 de Marzo"/>
 
       <div className="movements__details2">
         <div>Ver todos mis movimientos</div>

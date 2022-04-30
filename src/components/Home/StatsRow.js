@@ -1,0 +1,36 @@
+import React from "react";
+import StockChart from "../img/stock.svg";
+import "./StatsRow.css"
+
+function StatsRow(props) {
+  //   console.log(props, "what is in props here?");
+  // (currentPrice - openPrice)/openPrice
+  const percentage = ((props.price - props.openPrice) / props.openPrice) * 100;
+
+  const getModal = () => {};
+  return (
+    <div className="row" onClick={getModal}>
+      <div className="row__intro">
+        <h1>{props?.name}</h1>
+        <p>{props.volume && props.volume + " shares"}</p>
+      </div>
+      <div className="row__chart">
+        <img alt="chart" src={StockChart} height={16} width={60} />
+      </div>
+      <div className="row__numbers">
+        <p className="row__price">{props.price}</p>
+      </div>
+      <div className="row__numbers">
+      <p className="row__price">{props.hight}</p>
+      </div>
+      <div className="row__numbers">
+      <p className="row__price">{props.low}</p>
+      </div>
+      <div>
+      <p className="row__percentage"> {Number(percentage).toFixed(2)}%</p>
+      </div>
+    </div>
+  );
+}
+
+export default StatsRow;

@@ -37,16 +37,22 @@
 
 }
 
+
+.movements__details:hover{
+   background-color: #1393ee2a;
+}
+
+
 .movements__details2{
     display: flex;
     justify-content: space-between;
     padding: 8px 30px 8px 30px;
-    color: #7908ff;
+    color: #1394ee;
     font-weight:600;
 }
 
 .movements__details2:hover{
-    color: #5504b8;
+    color: #096bb0e4;
     transition: .5s;
 }
 

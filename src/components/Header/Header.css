@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7908ff;
+    background-color: #1394ee;
     color: white;
     height: 40px;
     width: 140px;
@@ -57,7 +57,7 @@
 }
 
 .header__second__button1:hover{
-    background-color: #5a06c1;
+    background-color: #017dd4;
     transition: .5s
 }
 
@@ -65,15 +65,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f4ecfe;
-    color: #7908ff;
+    background-color: #ecf4fefe;
+    color: #1394ee;
     height: 40px;
     width: 140px;
     border-radius: 20px;
 }
 
 .header__second__button2:hover{
-    background-color: #cdbae1;
+    background-color: #0d59b642;
     transition: .5s
 }
 
